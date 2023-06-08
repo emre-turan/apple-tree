@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Apple Tree Shake Game
 
-## Getting Started
+This application is a simple interactive game built with Next.js, React, Redux, and Tailwind CSS.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The application consists of four main components: a tree, apples, a basket, and a button. The user can shake the tree by clicking either on the tree itself or the button. When the tree is shaken, apples fall to the ground at random intervals and in random quantities. It's possible that no apples may fall on the first shake!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Initially, the user sees an empty basket on the screen. However, once an apple falls, the basket image is replaced with an image of a basket full of apples.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Additional Features (Not Implemented)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+While building this application, several additional features were considered that could potentially turn this into a more complex game:
 
-## Learn More
+- Counting the number of fallen apples: This could allow users to keep track of how many apples they have collected.
+- Showing a tree without apples after all apples have fallen: This would provide a visual indication that the user has successfully collected all the apples.
+- A reset function to restart the game without reloading the page: This would make it easier for users to play the game multiple times.
+- Implementing a scoring system based on the number of shakes it takes to drop all the apples: This could turn the application into a game where the goal is to drop all the apples with the least amount of shakes.
 
-To learn more about Next.js, take a look at the following resources:
+However, these features were not implemented in the initial version in order to maintain the simplicity of the application. The focus was to create a straightforward, easy-to-understand interaction that demonstrates the use of React, Redux, and Tailwind CSS.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to Play
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To play the game, simply click on the tree or the button to shake the tree. Watch as the apples fall and collect in the basket. To restart the game, simply reload the page.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enjoy the game!
