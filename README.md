@@ -1,7 +1,7 @@
 # Apple Tree Shake Game
 
 This application is a simple interactive game built with Next.js, React, Redux, and Tailwind CSS. Hosted on Vercel.
-[apple-tree.vercel.app](apple-tree.vercel.app)
+You can play the game [here](https://apple-tree.vercel.app).
 
 ## Overview
 
