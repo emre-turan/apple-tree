@@ -18,7 +18,7 @@ const Basket = () => {
   }, [basket]);
 
   return (
-    <div className="flex justify-end">
+    <div className="flex justify-end lg:pr-64 md:pr-32">
       <div className="transition-all duration-500 hover:scale-105">
         {showFullBasket ? (
           <Image
